@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /* main web page (custom size)*/
+     * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     }
+     /* body */
+     body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: beige;
+     }
+     /* header */
+     header {
+      text-align: center;
+      background-color: rgb(99, 99, 99);
+      border: 1px solid black;
+      color: whitesmoke;
+      padding: 100px;
+     }
+
+     h1 {
+      position: relative;
+      text-align: center;
+      font-size: 45px;
+      margin-top: -10px;
+      margin-bottom: -80px;
+      margin-left: 120px;
+      margin-right: 120px;
+      padding: 5px 60px 5px 50px;
+     }
+
+     /* main img src="symbol.PNG"*/
+     img{
+      position: relative;
+      border: 2px solid black;
+      margin-left: -20px;
+      margin-bottom: 35px;
+      width: 200px;
+      height: 200px;
+      margin-top: -300px;
+      border-radius: 100px;
+     }
+     /* main */
+     main {
+      width: 90vw;
+      margin: 10px;
+      padding: 10px 20px;
+      min-height: 80vh;
+     }
+     /*<!-- Boxes to user to click on other webpages-->*/
+     /* main div class="click"*/
+     .click{
+        display: flex;
+        flex-direction: column;
+        font-size: 35px;
+      }
+     /* shopping class="box2"(Shopping)*/
+      .box2{
+        background-color: rgb(99, 99, 99);
+        color: whitesmoke;
+        text-align: center;
+        width: 50px;
+        height: 30px;
+        margin: 5px;
+        padding: 10px 180px 40px 10px;
+        border: 2px solid black;
+        border-radius: 15px;
+      }
+     /* cart class="box3"(Cart)*/
+      .box3{
+        background-color: rgb(99, 99, 99);
+        color: whitesmoke;
+        text-align: center;
+        width: 50px;
+        height: 30px;
+        margin: 5px;
+        padding: 10px 140px 40px 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+      }
+      /* maps class="box4"(Maps)*/
+      .box4{
+        background-color: rgb(99, 99, 99);
+        color: whitesmoke;
+        text-align: center;
+        width: 50px;
+        height: 30px;
+        margin: 5px;
+        padding: 10px 140px 40px 50px;
+        border: 2px solid black;
+        border-radius: 15px;
+      }
+      .main1{
+        margin:20px;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 200px;
+        margin-right: -20px;
+        margin-top: -200px;
+
+      }
+      /* product text (class="tent, sleep, accesssories)"*/
+      .main2, .tent, .sleep, .accessories{
+        display: flex;
+        padding-left:300px;
+        padding-right: 300px;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 205px;
+        margin-right: -30px;
+        margin-top: 20px;
+        
+
+      }
+      .tent{
+        margin-left: -320px;
+        margin-right: -100px;
+        font-weight: bold;
+      }
+      .sleep{
+        margin-left: 100px;
+        margin-right: -100px;
+        font-weight: bold;
+      }
+      .accessories{
+        margin-left: 50px;
+        font-weight: bold;
+      }
+      /* Pictures in img src*/
+      .pic1{
+        margin-top: 100px;
+        margin-left: -330px;
+      }
+      .pic2{
+        margin-top: 120px;
+        margin-left: -450px;
+      }
+      .pic3{
+        margin-top: 120px;
+        margin-left: -500px;
+      }
+     /*footer*/
+     footer {
+      border: 1px solid black;
+      background-color: rgb(99, 99, 99);
+      color: whitesmoke;
+      padding: 60px;
+     }
+
+     .contacts {
+       margin-left: -30px;
+       margin-top: -130px;
+     }
+     ul li{
+      font-size: 20px;
+     }
+     .copyright{
+      text-align: right;
+      font-size: 15px;
+      margin-top: 80px;
+      margin-right: -50px;
+     }
+   
+    </style>
+</head>
+<body>
+  <!-- Final project company name (header)-->
+  <header>
+     <h1>Wanderer Gear</h1>
+     
+  </header>
+   <!-- Boxes to user to click on other webpages-->
+  <main>
+    <img src="symbol.PNG" alt="Logo" width="200" height="200">
+    <div class="click">
+      <div class="box2">Shopping</div>
+      <div class="box3">Cart</div>
+      <div class="box4">Maps</div>
+   </div>
+   <!-- info. on company-->
+   <div class="main1">
+     <h2 class="info">About Us</h2>
+     <br>
+      <p>
+      Here at Wanderer gear, we sell camping gear recommended
+      by experts and people who love to go camping.<br>
+      Well different products from: 
+   </div>
+   <div class="main2">
+    <p class="tent">Tents</p>
+    <img src="tent.JPG" alt="tents" style="width:150px;height:150px;" class="pic1">
+    <p class="sleep">Sleeping Bags</p>
+    <img src="sleepBag.PNG" alt="SleepBag" style="width:200px;height:120px;" class="pic2">
+    <p class="accessories">Accessories</p>
+    <img src="campfire.jpg" alt="Fire" style="width:150px;height:150px;" class="pic3">
+   </div>
+   <!-- Pictures are of tents, sleeping bags and campfire-->
+   
+    
+    
+    
+
+  
+   
+  </main>
+  
+  <!-- (footer) final project contacts, employment and other
+  Cannot click on them-->
+  <footer>
+    <p class="copyright">Coprright &copy; 2023, CSC104final_Project</p>
+    <div class="contacts">
+     <h2>Contact Us</h2>
+     <ul>
+       <li>Contacts</li>
+       <li>Employment</li>
+       <li>Other Services</li>
+     </ul>
+    </div>
+  </footer>
+    
+</body>
+</html>
